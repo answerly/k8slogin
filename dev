@@ -1,0 +1,8 @@
+#!/bin/bash
+
+CMD=$1
+NAME_SPACE=dev-olasharing
+KUBECONFIG='F'
+
+sh /home/olasharing/bin/asrc/k8s.sh $NAME_SPACE $KUBECONFIG $*
+
